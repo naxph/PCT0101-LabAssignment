@@ -1,7 +1,7 @@
 body {
-  background: #8e9eab; /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #eef2f3, #8e9eab);
-  background: linear-gradient(to right, #eef2f3, #8e9eab);
+  background: #83a4d4;
+  background: -webkit-linear-gradient(to right, #b6fbff, #83a4d4);
+  background: linear-gradient(to right, #b6fbff, #83a4d4);
 }
 
 h1 {
@@ -22,8 +22,8 @@ h1 {
 }
 
 #haas-logo {
-  width: 150px;
-  height: 50px;
+  width: 130px;
+  height: 30px;
 }
 
 #herobutton {
