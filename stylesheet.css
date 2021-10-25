@@ -4,10 +4,6 @@ body {
   background: linear-gradient(to right, #b6fbff, #83a4d4);
 }
 
-h1 {
-  align-self: center;
-  font-family: Helvetica;
-}
 #herotextbox {
   width: 800px;
 }
@@ -16,9 +12,9 @@ h1 {
   font-family: "Zen Kaku Gothic Antique", sans-serif;
 }
 
-#profilepicture {
+#carpicture {
   display: block;
-  padding-top: 2%;
+  margin-top: 6%;
 }
 
 #haas-logo {
@@ -28,4 +24,23 @@ h1 {
 
 #herobutton {
   padding-top: 1%;
+}
+
+#profilepicture {
+  display: block;
+  width: 25%;
+  height: 25%;
+  margin-top: 1%;
+}
+
+.accordionbio {
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+#biotitletext {
+  padding-top: 1%;
+  font-family: "Zen Kaku Gothic Antique", sans-serif;
 }
