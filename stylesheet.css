@@ -13,6 +13,7 @@ body {
 }
 
 #carpicture {
+  /*Car picture on the home page*/
   display: block;
   margin-top: 6%;
 }
@@ -43,4 +44,24 @@ body {
 #biotitletext {
   padding-top: 1%;
   font-family: "Zen Kaku Gothic Antique", sans-serif;
+}
+
+#cartitletext {
+  font-family: "Zen Kaku Gothic Antique", sans-serif;
+  padding-top: 1%;
+}
+
+#maincarimage {
+  /*Car picture on the about car page*/
+  display: block;
+  width: 50%;
+  height: 50%;
+  padding-top: 1%;
+}
+
+#carinfotext {
+  font-family: "Zen Kaku Gothic Antique", sans-serif;
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-top: 1%;
 }
