@@ -1,8 +1,32 @@
-body {
+body{
   background: #83a4d4;
   background: -webkit-linear-gradient(to right, #b6fbff, #83a4d4);
-  background: linear-gradient(to right, #b6fbff, #83a4d4);
+  background:background-image var(--gradient);
+  background-size: 500%;
+  animation: bg 10s infinite alternate;
+}      /*linear-gradient(to right, #b6fbff, #83a4d4)*/
+
+:root{
+  --gradient: linear-gradient(
+    45deg,
+    #ff5b68,
+    #ed6078,
+    #db6488,
+    #c86998,
+    #b66da8,
+    #a472b9,
+    #9276c9,
+    #7f7bd9,
+    #6d7fe9,
+    #5b84f9
+  );
 }
+
+@keyframes bg{
+  0% {background-position: left;}
+  100% {background-position: right;}
+}
+
 
 #herotextbox {
   width: 800px;
@@ -60,6 +84,8 @@ body {
 }
 
 #carinfotext {
+  font-size: 20px;
+  font-weight: 500;
   font-family: "Zen Kaku Gothic Antique", sans-serif;
   padding-left: 20%;
   padding-right: 20%;
