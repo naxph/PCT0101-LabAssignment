@@ -4,7 +4,7 @@ body{
   background:background-image var(--gradient);
   background-size: 500%;
   animation: bg 10s infinite alternate;
-}      /*linear-gradient(to right, #b6fbff, #83a4d4)*/
+}      
 
 :root{
   --gradient: linear-gradient(
